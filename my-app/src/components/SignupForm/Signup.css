@@ -1,0 +1,92 @@
+
+
+
+.signup{
+    background-color: #fff;
+    
+}
+form {
+    background: #fff;
+    
+    max-width: 400px;
+    margin: 50px auto 0;
+    border-radius: 2px;}
+.signup div{
+    margin: 0 0 2em 0;
+    position: relative;
+}
+h2 {
+    margin:0 0 50px 0;
+    padding: 10px;
+    text-align:center;
+    font-size:30px;
+    color: dimgray;
+    border-bottom:solid 1px #e5e5e5;
+  }
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    background: #fff;
+    border: 1px solid/* #dbdbdb*/ #aaa;
+    font-size: 16px;
+    padding: .8em .8em;
+    border-radius: 3px;
+    
+  }
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background: #fff
+  }
+
+  span {
+    display:block;
+    background: #F9A5A5;
+    padding: 2px 5px;
+    color: #666;
+  }
+
+  input[type="submit"] {
+    background-color: #384047;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    width: 40%;    
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: 0em 0 0;
+    outline: none;
+    padding: 0.7em 0;
+    text-shadow: 0 1px #999;
+    letter-spacing: 1px;
+  }
+  input[type="submit"]:hover {
+    background: dimgray;
+    text-shadow:0 1px 3px darken(blue, 30%);
+  }
+
+label{
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    font-size: 16px;
+    color: #999;
+    display: inline-block;
+
+    padding: 4px 10px;
+    font-weight: 450;
+    background-color: rgba(255,255,255,0.8);
+    top: -13px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 15px;
+}

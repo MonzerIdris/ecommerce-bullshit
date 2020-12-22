@@ -1,0 +1,59 @@
+.login{
+    background-color: #fff;
+}
+
+h2 {
+    margin:0 0 50px 0;
+    padding: 10px;
+    text-align:center;
+    font-size:30px;
+    color: dimgray;
+    border-bottom:solid 1px #e5e5e5;
+  }
+
+form{
+    background: #fff;
+    
+    max-width: 400px;
+    margin: 50px auto 0;
+    border-radius: 2px;
+}
+
+
+.login div{
+    margin: 0 0 2em 0;
+    position: relative;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+  }
+
+label {
+    position: absolute;
+    left: 8px;
+    top: -12px;
+    display: block;
+    
+}
+input[type=email],
+input[type=password]{
+    background: #fff;
+    border: 1px solid/* #dbdbdb*/ #aaa;
+    font-size: 16px;
+    padding: .8em .8em;
+    border-radius: 3px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background: #fff
+}
+
+input[type="submit"] {
+    width: 20%;
+}
